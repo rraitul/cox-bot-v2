@@ -1,0 +1,106 @@
+{
+    "menu": {
+        "📝 Cere ajutor": {
+            "🚫 Sanctiuni": [
+                "🔍 Vezi Sanctiunile tale.",
+                "🎟️ Deschide ticket"
+            ],
+            "💸 Shop": [
+                "🤔 Ce primesc in schimbul donatiilor ?",
+                "🏧 Metode de plata",
+                "👀 Probleme Grad",
+                "💸 Grade de pe Shop",
+                "⚙️ Grade Custom",
+                "🧥 MERCH"
+            ],
+            "🐛 Probleme": [
+                "🎶 Nu merg boti de muzica",
+                "💊 Am pus cox in nume dar nu am primit",
+                "⚒️ Nu pot sa aplic in Staff",
+                "🏆 Am castigat la Giveaway dar nu am primit premiul",
+                "🍔 Self Roles",
+                "🔉 Join to create info"
+            ],
+            "👪 Servere comunitate": [
+                "🚗 FIVEM",
+                "🏡 MINECRAFT",
+                "🔫 CSGO",
+                "⚒️ COX BOT SUPPORT"
+            ],
+            "📣 Promovare": [
+                "📣 Tipuri de Promovari",
+                "📝 Propuneri/Oferte"
+            ]
+        }
+    },
+    "subMenu": {
+        "🤔 Ce primesc in schimbul donatiilor ?": [
+            "🎟️ Deschide ticket"
+        ],
+        "💸 Grade de pe Shop": [
+            "💎 Diamond",
+            "💿 Platinum",
+            "📀 Gold",
+            "🌍 Silver"
+        ],
+        "⚙️ Grade Custom": [
+            "💸 Doresc sa cumpar Grad Custom"
+        ],
+        "👀 Probleme Grad": [
+            "❓ Am donat si nu am primit Gradul",
+            "🚫 Am donat pentru Grad dar acum nu il mai am"
+        ],
+        "🚫 Am donat pentru Grad dar acum nu il mai am": [
+            "🩸 Vezi Sanctiuni scoaterea Grad",
+            "🎟️ Deschide ticket"
+        ],
+        "🧥 MERCH": [
+            "🌐 Link catre Web Shop",
+            "🤷‍♂️ Nu gasesc pe site ceea ce caut",
+            "👘 Cand se vor adauga merch-uri noi"
+        ],
+        "📣 Tipuri de Promovari": [
+            "🎆 Promovare pe anunturi cu everyone",
+            "🎁 Promovare stil GiveaWay",
+            "🎎 Parteneriate"
+        ]
+    },
+    "actions": {
+        "🔍 Vezi Sanctiunile tale.": "returnUserModlogs(interaction)",
+        "🎎 Parteneriate": "dinamicReplyMessage(interaction, 'Din pacate 😔 serverul cox nu face parteneriate')",
+        "🌐 Link catre Web Shop": "dinamicReplyMessage(interaction, '[**COX SHOP**](https://cox-shop-3.creator-spring.com)')",
+        "🤷‍♂️ Nu gasesc pe site ceea ce caut": "dinamicReplyMessage(interaction, ' Daca nu gasesti pe site ceea ce cauti (precum husa pentru modeul tau de telefon) urmeaza sa se updateze asa ca stai geana')",
+        "👘 Cand se vor adauga merch-uri noi": "dinamicReplyMessage(interaction, 'Nu stim sigur daca se vor m-ai adauga merch-uri noi pe site desi avem in plan o noua colectie, nu stim sigur cand se va incepe lucrul pentru aceasta')",
+        "🚗 FIVEM": "dinamicReplyMessage(interaction, 'Serverul de fivem este momentan in lucru pentru mai multe update-uri click aici [FiveMCox](https://discord.gg/coxrorp)')",
+        "🏡 MINECRAFT": "dinamicReplyMessage(interaction, '**IP: MC.BLACKFACTION.RO**Serverul de minecraft a comunitatii cox este deschis 24/7 versiunea 1.19.2, desi acesta este deschis nu este un priect in lucru si nu va avea update-uri deci este doar deschis pentru cine vrea sa se Gamemod Survival Medium')",
+        "🔫 CSGO": "dinamicReplyMessage(interaction, 'Serverul de CSGO nu este inca in lucru dar urmeaza sa incepem treaba curand')",
+        "⚒️ COX BOT SUPPORT": "dinamicReplyMessage(interaction, 'Acesta este serverul de support al botilor de pe cox, aici vei gasii update-uri si inforamtii utile legate de botii nostri plus ocazia de a fi unu din membri ce testeaza update-uri noi la bot inainte sa fie adaugate pe serverul coxInvite link: https://discord.gg/Qg7Cd3Xh')",
+        "🎶 Nu merg boti de muzica": "dinamicReplyMessage(interaction, 'Daca nu merg botii de muzica cox, da-ti un DM lui <@983488399094718544>')",
+        "💊 Am pus cox in nume dar nu am primit": "dinamicReplyMessage(interaction, 'Asteapta minim cateva minute posibil ca botul sa fie solicitat')",
+        "⚒️ Nu pot sa aplic in Staff": "dinamicReplyMessage(interaction, 'Pentru a aplica in staff trebuie sa aveti tagu ᶜᵒˣ in nume, acesta iti ofer gradul <@&827505507501211649> ce iti permite inceperea aplicaitiei staff')",
+        "🏆 Am castigat la Giveaway dar nu am primit premiul": "dinamicReplyMessage(interaction, 'Daca ai castigat si inca nu ai primit premiul, contacteaza creatorul giveaway-ului in DM')",
+        "🍔 Self Roles": "dinamicReplyMessage(interaction, 'Acesta sunt disponibile pentru toti si se pot accesa prin apasare pe reactie pe canalele <#827505591089102869> si <#827568380931604550>')",
+        "🔉 Join to create info": "dinamicReplyMessage(interaction, 'MORE INFO HERE SOON')",
+        "❓ Am donat si nu am primit Gradul": "dinamicReplyMessage(interaction, 'Daca ai donat, nu ai primit grad, si au trecut cel putin cateva ore de la cumparere deschide un ticket legat de aceasta problema')",
+        "🎟️ Deschide ticket": "modal.execute(interaction, '🎟️ Deschide ticket')",
+        "💸 Doresc sa cumpar Grad Custom": "modal.execute(interaction, '💸 Doresc sa cumpar Grad Custom')",
+        
+        "💎 Diamond": "ticket.open",
+        "💿 Platinum": "ticket.open",
+        "📀 Gold": "ticket.open",
+        "🌍 Silver": "ticket.open",
+        "🎫 Propuneri/Oferte": "ticket.open",
+        "🎆 Promovare pe anunturi cu everyone": "ticket.open",
+        "🎁 Promovare stil Giveaway": "ticket.open",
+        
+        "🩸 Vezi Sanctiuni scoaterea Grad": "dinamicReplyMessage(interaction, 'Role Remove Info')"
+    },
+    "messages": {
+        "💸 Shop": "**DONATIILE SUNT OBTIONALE SI DE FAC DOAR LA** <@721658625084358737> ** SI ** <@983488399094718544>",
+        "🤔 Ce primesc in schimbul donatiilor ?": "<a:server_cox_bell:810226084733386792> **Donatiile se fac numai la <@!721658625084358737> sau la <@!983488399094718544> **<a:server_cox_bell:810226084733386792> **\nOdata ce ai donat vei primi si rolul de <@&827505403616952371> si vei fi mentionat pe canalul <#827661030040666193> alaturi de suma donata. **",
+        "💸 Grade de pe Shop": "<a:server_cox_bell:810226084733386792> **Donatiile se fac numai la <@!721658625084358737> sau la <@!983488399094718544> **<a:server_cox_bell:810226084733386792> **Odata ce ai donat vei primi si rolul de <@&827505491734560818> **<a:server_cox_atentie:892085956709077033> __**DACĂ SE ABUZEAZĂ DE GRADE O SĂ FIE AUTOMAT SCOASE ȘI NU O SĂ PRIMIȚI BANII ÎNAPOI.**__",
+        "⚙️ Grade Custom": "➥ <@&997048137497727047>\n<a:server_cox_sageata:860250944528711690>** Acces la canalalele din categoria STATS**\n<a:server_cox_sageata:860250944528711690> **Toate acesele de mai jos.*** \n➥ <@&827505489096867880>\n<a:server_cox_sageata:860250944528711690> **Acces sa postezi poze pe <#827523967572115456> \n**<a:server_cox_sageata:860250944528711690> **Mutarea membrilor pe canalele de voice.**\n<a:server_cox_sageata:860250944528711690> **Toate acesele de mai jos.***\n➥ <@&827505489746722887>\n<a:server_cox_sageata:860250944528711690> **Acces sa te conectezi pe canalele de voice care au limita de membrii atinsa.**\n<a:server_cox_sageata:860250944528711690> **Toate acesele de mai jos.***\n➥ <@&827505490800017408>\n<a:server_cox_sageata:860250944528711690> **Acces sa te conectezi pe canalele de voce care au limita de membrii atinsa.**\n<a:server_cox_sageata:860250944528711690> **Mutarea membrilor pe canalele de voice.**\n<a:server_cox_sageata:860250944528711690> **Schimbarea poreclei.**",
+        "🏧 Metode de plata": "<a:flying_cox_money:997100120027971614>Metodele de plata le aveti mai jos: <a:flying_cox_money:997100120027971614>\n\n<:icon_cox_revolut:941080421947551804> Revolut\n\n<:icon_cox_bt:941080380809805885> IBAN BT Pay\n\n<:icon_cox_paysafe:997101879165206618> PaysafeCard\n\n<:icon_cox_paypal:855462153963307028> Paypal\n\n<:icon_cox_skrill:917929333362933790> Skrill",
+        "🚫 Am donat pentru Grad dar acum nu il mai am": "Daca ai donat pentru grad si acum nu il mai ai inseamna ca cineva ti-a scos gradul deoarece ai abuzat de acesta"
+    }
+}

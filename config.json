@@ -1,0 +1,32 @@
+{
+    "bot": {
+        "token": "MTA4NDU2Njc0ODc2Nzk5MzkzOA.GHl12A.z-uL3fVdFd4QAQwHfrADfFojUrf3UUJZ1brsOs",
+        "clientId": "1084566748767993938"
+    },
+    "servers": {
+        "cox_server": {
+            "guildId": "1091267145989640262",
+            "tickets": {
+                "category": "1091267486026043422",
+                "channel": "1093174375462752369",
+                "message": "1094282512748003459",
+                "logs": {
+                    "id": "1093574927883436175",
+                    "ip": "127.0.0.1",
+                    "port": "3000"
+                },
+                "permissions": [
+                    "1091979430819270666",
+                    "1091268025153503255",
+                    "1091634562586652742"
+                ]
+            },
+            "modlogs": {
+                "channel" : "1091269096710098984"
+            }
+        },
+        "staff_cox_server": {
+            "guildId": "1024348614979489833"
+        }
+    }
+}
